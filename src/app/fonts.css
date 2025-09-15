@@ -1,0 +1,60 @@
+/* Array Font Family */
+@font-face {
+  font-family: "Array";
+  src: url("/fonts/array/Array-Regular.woff2") format("woff2"),
+    url("/fonts/array/Array-Regular.woff") format("woff"),
+    url("/fonts/array/Array-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Array";
+  src: url("/fonts/array/Array-Semibold.woff2") format("woff2"),
+    url("/fonts/array/Array-Semibold.woff") format("woff"),
+    url("/fonts/array/Array-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Array";
+  src: url("/fonts/array/Array-Bold.woff2") format("woff2"),
+    url("/fonts/array/Array-Bold.woff") format("woff"),
+    url("/fonts/array/Array-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Array Wide";
+  src: url("/fonts/array/Array-Wide.woff2") format("woff2"),
+    url("/fonts/array/Array-Wide.woff") format("woff"),
+    url("/fonts/array/Array-Wide.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Array Wide";
+  src: url("/fonts/array/Array-SemiboldWide.woff2") format("woff2"),
+    url("/fonts/array/Array-SemiboldWide.woff") format("woff"),
+    url("/fonts/array/Array-SemiboldWide.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Array Wide";
+  src: url("/fonts/array/Array-BoldWide.woff2") format("woff2"),
+    url("/fonts/array/Array-BoldWide.woff") format("woff"),
+    url("/fonts/array/Array-BoldWide.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
