@@ -14,8 +14,9 @@ const arrayFont = localFont({
 });
 
 export const metadata = {
-  title: "3D Commercial",
-  description: "Your 3D commercial application",
+  title: "3D Chess — Immersive Web Experience",
+  description:
+    "An interactive 3D chess landing page built with Three.js, React Three Fiber, and GSAP. Featuring scroll-driven animations, physics-based effects, and cinematic typography.",
 };
 
 export default function RootLayout({ children }) {

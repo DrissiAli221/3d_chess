@@ -78,7 +78,7 @@ export default function Home() {
           {
             y: 30,
             opacity: 0,
-          }
+          },
           // "<"
         );
 
@@ -92,14 +92,14 @@ export default function Home() {
             scrub: 1,
           },
         },
-        1
+        1,
       );
 
       scrollTl
         .fromTo(
           "html",
           { backgroundColor: "#fff5e1" },
-          { backgroundColor: "#d6c3a3", overwrite: "auto" }
+          { backgroundColor: "#d6c3a3", overwrite: "auto" },
         )
         .from(heading2Text.chars, {
           y: 45,
@@ -129,7 +129,7 @@ export default function Home() {
             transformOrigin: "top top",
             duration: 1.1,
             ease: "linear",
-          }
+          },
         )
         .to(insideLineRef.current, {
           scaleY: 0,
@@ -140,7 +140,7 @@ export default function Home() {
         });
     },
 
-    { dependencies: [ready, isDesktop] }
+    { dependencies: [ready, isDesktop] },
   );
 
   return (
@@ -197,13 +197,8 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Side Text + Image */}
-          <div className="relative  grid h-screen items-center gap-4 md:grid-cols-2">
-            <img
-              src="/your-image.png"
-              alt="side visual"
-              className="w-full md:hidden"
-            />
+          {/* Side Text */}
+          <div className="relative grid h-screen items-center gap-4">
             <div>
               <h2
                 ref={heading2Ref}
