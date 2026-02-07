@@ -198,7 +198,7 @@ export default function Home() {
           </div>
 
           {/* Side Text */}
-          <div className="relative grid h-screen items-center gap-4">
+          <div className="relative grid h-screen w-full items-center gap-4 md:grid-cols-2">
             <div>
               <h2
                 ref={heading2Ref}
